@@ -46,8 +46,26 @@ h2 {
   color: ivory;
 }
 
+.Killem {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.albumbod {
+  background: rgb(103, 102, 95);
+}
+
 @media (max-width: 1100px) {
   h2 {
     font-size: 3.7rem;
+  }
+
+  .Killem {
+    max-height: 80%;
+    max-width: 80%;
   }
 }
